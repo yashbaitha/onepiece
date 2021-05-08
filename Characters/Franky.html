@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<title>Franky</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./header.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+
+  <header class="header">
+
+    <a href="../index.html" class="logo">OnePiece</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../character.html">Character</a></li>
+      <li><a href="../aboutme.html">About</a></li>
+
+    </ul>
+    <style media="screen">
+    body {
+
+
+
+font-family: Helvetica, sans-serif;
+background-color: #f4f4f4;
+}
+
+a {
+color: #3695ba;
+}
+
+/* header */
+
+.header {
+background-color: #fff;
+box-shadow: 1px 1px 4px 0 rgba(54, 149, 186);
+position: fixed;
+width: 100%;
+z-index: 3;
+margin-top: -20px
+
+
+}
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+background-color: #f4f4f4;
+
+}
+
+.header .logo {
+display: block;
+float: left;
+font-size: 2em;
+padding: 10px 20px;
+text-decoration: none;
+font-family: cursive;
+}
+
+/* menu */
+
+.header .menu {
+clear: both;
+max-height: 0;
+transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+cursor: pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+}
+    </style>
+  </header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" >
+
+    <!-- Left Column -->
+    <div class="w3-third" style="margin-top:50px">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/franky.png" style="width:100%" alt="monkey d luffy">
+
+        </div>
+
+
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird" style="margin-top:25px;">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center; ">Franky</h2>
+        <div class="w3-container">
+          <p>"Iron Man" Franky[16][4] is the shipwright of the Straw Hat Pirates. He is the crew's eighth member and the seventh to join, doing so at the end of the Post-Enies Lobby Arc.[17]
+
+Born "Cutty Flam",[18] he chose to go by his nickname of "Franky" until eventually, permanently discarding his true name per the request of Iceburg, to hide his identity.[19] Originally from the South Blue,[20] Franky was abandoned by his family as a four-year-old, eventually making his way to Water 7. There, he came to be a member of Tom's Workers, until an incident resulted in his body being heavily damaged and requiring him to augment himself into a cyborg. Upon returning to Water 7, he became the leader of the Franky Family, a group of ship dismantlers.[2]
+
+Franky and his followers were originally enemies of the Straw Hats at the beginning of the Water 7 Arc, until circumstances forced them to become allies at the end of the same arc and the Enies Lobby Arc. Franky's dream is to create a ship and circumnavigate the world with it, and he built the Thousand Sunny and joined the Straw Hat Pirates to fulfill his dream.
+
+He currently has a bounty of Beli.png94,000,000.[</p>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center">Personality</h2>
+        <div class="w3-container">
+          <p>As a direct result of the modifications that he conducted upon himself as well as the years spent as a ship dismantler, bounty hunter, and street thug in Water 7, Franky is a powerfully built man with a height of at least seven feet, making him the third-tallest member of the Straw Hat crew, after Jinbe and Brook. His forearms are relatively enormous while his biceps are comparably small. His chest is well-toned with large abs and pectoral muscles. He has brightly-colored blue hair and blue star tattoos on his forearms. Franky's eyebrows are rather long and stern, and he has three prominent lower Matsuge on each eye. His chin is very angular and tapers off in three pointed clefts. Franky has an equally angular prosthetic nose made of iron with several rivets and jagged edges, the only replacement part of his exterior body that is not covered in artificial skin.
+
+Before being hit by the Puffing Tom, Franky's forearms were normal-sized and his overall height was comparably smaller than his cyborg-enhanced self would be. He also had an ordinary nose and chin, both of which were later badly broken in the accident, causing him to repair them with iron.
+
+His choice of clothing usually comprises of a swim briefs, which causes people to call him a pervert, and an open loud Hawaiian "Aloha" shirt with a large golden chain necklace around his neck. It is rare for him to button up his shirt, have long sleeves, and wear pants or footwear unless the situation calls for it, or someone makes him do so. He also does not like it when people tamper with his look, as seen when Nami's mind was inside his body and she tried to button up his Hawaiian shirt, which made Franky upset.
+
+Before becoming a cyborg, Franky went half-dressed simply because he wanted to. Now, his cyborg body is built in a way that covering himself up actually limits him from accessing its features (long sleeves prevent him from using weapons installed on his arms, a buttoned shirt stops him from accessing his chest panels, pants keep him from using features on his legs that cause them to separate or expand, shoes are a hindrance for the same reason and also redundant because his feet are toughened with iron). If in a battle, Franky will strip down for the sake of using his weapons or wear specially modified clothing that can transform along with him. Conversely, Franky always makes sure to cover his back (hence, he wears a shirt) because it is a weak spot- it is still flesh and blood, the only part of his body he cannot reach and modify. Unfortunately, Franky is still susceptible to cold and can suffer chills from his half-nakedness.[21]
+
+During his first appearance in the Water 7 Arc, Franky wore a masked costume as a disguise so no one could identify him while he bought wood from the Adam tree off the black market.[22] After discarding this disguise, for the rest of the arc all the way up to the end of the Post-Enies Lobby Arc, he wore a red Hawaiian shirt, with lime green palm trees decorating it.
+
+During the Thriller Bark Arc, Franky wore a yellow shirt with purple trident-like symbols on the sides and a large one on back.
+
+Near the end of the previous arc all the way up to the Sabaody Archipelago Arc, Franky switched to wearing a purple version of his Hawaiian shirt.
+
+During the Straw Hats separation, Franky wore a red coat to protect himself from the cold while on Baldimore, but after blowing up Vegapunk's laboratory, the skin on his face and frontal body was burned off, revealing his metal endoskeleton underneath, which he covered up with a tiger skin rug due to scaring people who looked at him.
+
+He also has a pair of sunglasses, which he usually wears when things start to get serious.
+
+<h4 style="text-align:center;">After the Timeskip</h4>
+Over the two years he was on his own, Franky used Vegapunk's blueprints to drastically reconfigure his body, repairing the damage he accidentally caused to himself and replacing some old functions his body used to have with better and more powerful implements. Franky's hair is now controllable, and can change different styles instantly by pushing his nose for more than three seconds. While he used to wear it up in a pompadour style, he now frequently changes his hairstyle, typically whenever he wears a new outfit. However, he reverts to his original pompadour style whenever he is inside General Franky.
+
+He also has two stitch-mark scars on his torso running down from the back of his neck indicating that he had sewn his skin back on.
+
+He appears to have made modifications to his eyes as well. What appears to be his eyes are actually lenses that resemble human eyes over a pair of robotic eyes underneath. His left eye was seen with inverse coloration and with a glowing red pupil after his battle with Senor Pink, after being knocked around so much it caused the lens over the eye to fall out.[23] Once the fighting against the Donquixote Pirates had come to a close and Franky had some downtime to repair himself, he installed a replacement lens.[24]
+
+His shoulders, torso, and arms are also much bigger than before, and with studded hands that look almost robotic in appearance, but he also revealed that inside of his huge arms he still has a set of normal-sized robotic hands. He now appears to be wearing metal rigged suspenders. He has replaced his elbows with large, light blue hinges, his shoulders with a large red ball and socket joint with "BF-37" written on them, and his forearms with large, light blue cubes, with his trademark star tattoo being split by an edge. Surprisingly, Franky's forearms also have hair on them even though they are clearly robotic, and his large robot hands can even wear gloves. These new features house upgrades he gave himself during the timeskip.
+
+He now wears a red coconut tree-motived Hawaiian shirt and red swim briefs. While on Punk Hazard, he was given a large double-breasted black coat by Kin'emon for the cold. When he was able to change into winter attire, he put on a sky blue double-breasted coat with "BF 37"  written on the front and back, and paired it with a dark navy blue scarf with red polka dots.
+
+During the Dressrosa Arc Franky wore a white dress shirt and black suit jacket, a bowler hat, as well as his typical speedos. He initially had his hair in two long pigtails. After Dressrosa Operation: SOP began, he reformed his hair to resemble a cannon, which comically was only cosmetic.
+
+After the battle against the Doflamingo Family, he wore a white tank top with 'Corrida' written across it. He also reformed his hair to resemble Usopp's hat during the Dressrosa Arc.
+
+During the Zou Arc, Franky wore a black v-neck t-shirt with four symbols on it arranged in a square pattern (An "I", "H", "T", and a sun-like symbol). He reformed his hair into an undercut style similar in appearance to Smoker's post-timeskip hairstyle. Later on, he re-styles it again to resemble a blue whale.
+
+In the Wano Country Arc, Franky wears a dark blue yukata workman coat with kanji on the vee of the chest and symbols around the belt. He has red cloth draped around his shoulders and his hair is reformed to resemble a hammer.
+
+
+          </p>
+          <a href="https://onepiece.fandom.com/wiki/Franky">for more information go...</a>
+          <hr>
+        </div>
+
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+</body>
+</html>

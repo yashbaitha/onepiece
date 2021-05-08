@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<title>Brook</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./header.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+
+  <header class="header">
+
+    <a href="../index.html" class="logo">OnePiece</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../character.html">Character</a></li>
+      <li><a href="../aboutme.html">About</a></li>
+
+    </ul>
+    <style media="screen">
+    body {
+
+
+
+font-family: Helvetica, sans-serif;
+background-color: #f4f4f4;
+}
+
+a {
+color: #3695ba;
+}
+
+/* header */
+
+.header {
+background-color: #fff;
+box-shadow: 1px 1px 4px 0 rgba(54, 149, 186);
+position: fixed;
+width: 100%;
+z-index: 3;
+margin-top: -20px
+
+
+}
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+background-color: #f4f4f4;
+
+}
+
+.header .logo {
+display: block;
+float: left;
+font-size: 2em;
+padding: 10px 20px;
+text-decoration: none;
+font-family: cursive;
+}
+
+/* menu */
+
+.header .menu {
+clear: both;
+max-height: 0;
+transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+cursor: pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+}
+    </style>
+  </header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" >
+
+    <!-- Left Column -->
+    <div class="w3-third" style="margin-top:50px">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/brook.jpg" style="width:100%" alt="monkey d luffy">
+
+        </div>
+
+
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird" style="margin-top:25px;">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center; ">Brook</h2>
+        <div class="w3-container">
+          <p>"Soul King" Brook is the musician of the Straw Hat Pirates,[15] and one of their two swordsmen. He is the ninth member of the crew and the eighth to join,[16] doing so at the end of the Thriller Bark Arc.
+
+Brook ate the Yomi Yomi no Mi,[17] which allowed him to return to life after death once. Brook eventually learned to tap deeper into the powers of his Devil Fruit, giving him nominal control over his own soul and the souls of others. His dream is to reunite with his old friend, Laboon, at Reverse Mountain, where he resides with Crocus.[18]
+
+Originally a member of the Rumbar Pirates, he died and was resurrected through the power of the Yomi Yomi no Mi. However, due to the amount of time it took for his soul to find his body, it was reduced to a skeleton, keeping only his afro intact. Brook drifted alone in the Florian Triangle for 50 years, eventually meeting Luffy and serving as the Straw Hats' ally during the Thriller Bark Arc before officially joining the crew.
+
+He currently has a bounty of Beli.png83,000,000.</p>
+
+        </div>
+
+
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center">Personality</h2>
+        <div class="w3-container">
+          <p>Brook is an eccentric character with a distinct personality of his own, like the other Straw Hat Pirates.
+
+While he looks like and thinks himself to be a gentleman, he does possess vulgar and perverted manners such as asking to see women's panties (Although in Camie's case he asks if she can lend him some money), yelling impatiently for food (a trait shared by Luffy), and occasionally burping and farting conspicuously. Despite this behavior, he still remains very polite, formal, and soft spoken in speech, usually referring to people using the respectful "-san" ("Sir") and always speaks to everyone even enemies in a very courteous manner. He appreciates the simplest of things: from a gesture of kindness, the company of others, and walking in the sunlight after receiving his shadow back. Brook was moved to tears at just being able to share a dinner with people after decades alone in the Florian Triangle.
+
+Despite his eccentric behavior, Brook is an extremely upright and compassionate person befitting of a true gentleman as Brook utterly disdains wickedness and cruelty. When Zeo began to ruthlessly assault his own men, Brook even defended one of the enemies from Zeo's attack, reprimanding Zeo for his cruelty. Brook's compassion is shown in Zou where he was horrified by the immense devastation the Beast Pirates caused. He readily helped the badly injured minks along with his crew mates. After Luffy arrived at Zou, Brook gave specific instructions not to mention anything about Wano and samurais out of consideration for the minks. He even beat up Luffy for mentioning Raizo out loud, although it turned out to be for nothing. After Yasuie was executed, Brook was solemn and sympathetic when Hiyori explained how the citizens of Ebisu Town lost the ability to feel or express sadness and despair after being fed faulty SMILE fruits by Orochi as part of his twisted tyranny.
+
+His reactions to different occurrences can be somewhat extreme, often comically so. For example, when the Straw Hats were alarmed at him for being a living skeleton, he forgot the object of fear was actually himself and also began to panic. Although he tends to display more extreme emotions at times, Brook has been known to over-relax when he is told to stay calm.[15] He is also very patient, having stayed on his former crew's ship for years, waiting for the day when he would eventually be reunited with his shadow. However, due to his rudeness, he can also be impatient about things like waiting for dinner to be served. Brook's most notable trait amongst others, however, is that he cracks "skull jokes" about himself being a skeleton complimented with his distinct laughter of "Yohohoho" even if there is no one around to hear him. When Chopper broke one of his jokes by saying what he intended to say beforehand, Brook became temporarily depressed.
+
+While stuck in the Florian Triangle, Brook discovered his skeletal body was now very limber and developed a strange gag to keep himself entertained- going completely rigid and then leaning against a wall or object at a forty-five degree angle. Though he mainly uses it to show it off in front of people and his crew just for a laugh, Brook later turned this into one of his signature poses as the Soul King. He has sometimes practiced and attempted to tilt in even further than forty-five degrees, but if he makes the angle too acute, he will lose his balance and slip. He can even run around in circles while maintaining this pose- when Nami had him be a lookout as half the crew was headed for Zou, Brook struck his 45 degrees pose and didn't check any other angle, causing Nami to yell at him to look in every direction, so Brook began a 45-degree rotation, annoying her with his antics until she attacked him.
+
+Brook is a great lover of music. In times of joy or sorrow, music is what generally keeps Brook going. When he was about to die during his first life with his fellow members of the Rumbar Pirates, Brook suggested playing and singing a song with their last breath. As a result, his love for music often reflects itself in various other aspects of his character, such as in his fighting style wherein the names of his attacks are derived from various songs and dances. He gave himself a musical theme so noticeable that while he was alive in his first life, he was called "Humming Brook" by the authorities.[16]
+          </p>
+          <a href="https://onepiece.fandom.com/wiki/Brook/Personality_and_Relationships">for more information go...</a>
+          <hr>
+        </div>
+
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+</body>
+</html>

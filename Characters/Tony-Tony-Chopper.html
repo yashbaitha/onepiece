@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<title>tony tony Chopper</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./header.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+
+  <header class="header">
+
+    <a href="../index.html" class="logo">OnePiece</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../character.html">Character</a></li>
+      <li><a href="../aboutme.html">About</a></li>
+
+    </ul>
+    <style media="screen">
+    body {
+
+
+
+font-family: Helvetica, sans-serif;
+background-color: #f4f4f4;
+}
+
+a {
+color: #3695ba;
+}
+
+/* header */
+
+.header {
+background-color: #fff;
+box-shadow: 1px 1px 4px 0 rgba(54, 149, 186);
+position: fixed;
+width: 100%;
+z-index: 3;
+margin-top: -20px
+
+
+}
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+background-color: #f4f4f4;
+
+}
+
+.header .logo {
+display: block;
+float: left;
+font-size: 2em;
+padding: 10px 20px;
+text-decoration: none;
+font-family: cursive;
+}
+
+/* menu */
+
+.header .menu {
+clear: both;
+max-height: 0;
+transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+cursor: pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+}
+    </style>
+  </header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" >
+
+    <!-- Left Column -->
+    <div class="w3-third" style="margin-top:50px">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/chopper.png" style="width:100%" alt="monkey d luffy">
+
+        </div>
+
+
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird" style="margin-top:25px;">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center; ">Tony Tony Chopper</h2>
+        <div class="w3-container">
+          <p>Tony Tony Chopper, also known as "Cotton Candy Lover" Chopper,[3] is the doctor of the Straw Hat Pirates. He is the sixth member of the crew and the fifth to join, doing so at the end of the Drum Island Arc. He was temporarily forced to join the Foxy Pirates during the Long Ring Long Land Arc, but was quickly returned to Luffy's crew.
+
+Chopper is a reindeer that ate the Hito Hito no Mi, a Devil Fruit that allows its user to transform into a human hybrid or a human at will. He came from Drum Island and was taught how to be a doctor by his two parental figures, Doctors Hiriluk and Kureha. His dream is to one day become a doctor capable of curing any disease and wants to travel all across the world specifically in the hopes of accomplishing this dream.
+
+He currently has a bounty of Beli.png100[10] due to being mistaken for the crew's pet.</p>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center">Personality</h2>
+        <div class="w3-container">
+          <p>Most of the time, Chopper is a toddler-sized human/reindeer hybrid, but his Devil Fruit abilities allow him to change his appearance depending on the situation. Chopper's left antler is braced at the base by a metal plate because it was reattached after being broken during his search for the Amiudake when he was younger (where he thought the Amiudake can cure Hiriluk's disease) and ran into the leader of his old herd, who severely injured him.[12] He usually wears a large pale red/pink fuzzy top hat with a sideways medical cross (given to him by Hiriluk) and a maroon pair of shorts. He also sometimes wears a blue backpack that has the same sideways medical cross as his hat. He also has a remarkable blue nose. As Oda's style evolved and many readers commented on how cute Chopper was, Chopper has been given a much more "chibi" like appearance, meaning that when in his preferred transformation (which he calls Brain Point), he has a larger head and eyes and a less defined muzzle than earlier in the series. Many female characters, such as Nami, Robin, Makino, Porche, Shakky, and Vivi find Chopper very cute. There are even males that find Chopper cute such as Foxy and Breed.
+
+A running gag is that various characters in One Piece think Chopper is a tanuki (raccoon-dog, often simply translated as "a raccoon") while in his Brain Point or hybrid form. The word "tonakai", which is the Japanese word for "reindeer", is where the "Tony" in Chopper's name is derived from. His Heavy Point or human form is likewise mistaken for a gorilla (or an abominable snowman on his home island).
+          </p>
+          <a href="https://onepiece.fandom.com/wiki/Tony_Tony_Chopper">for more information go...</a>
+          <hr>
+        </div>
+
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+</body>
+</html>

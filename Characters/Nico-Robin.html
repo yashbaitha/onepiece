@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<title>Nico Robin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./header.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+
+  <header class="header">
+
+    <a href="../index.html" class="logo">OnePiece</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../character.html">Character</a></li>
+      <li><a href="../aboutme.html">About</a></li>
+
+    </ul>
+    <style media="screen">
+    body {
+
+
+
+font-family: Helvetica, sans-serif;
+background-color: #f4f4f4;
+}
+
+a {
+color: #3695ba;
+}
+
+/* header */
+
+.header {
+background-color: #fff;
+box-shadow: 1px 1px 4px 0 rgba(54, 149, 186);
+position: fixed;
+width: 100%;
+z-index: 3;
+margin-top: -20px
+
+
+}
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+background-color: #f4f4f4;
+
+}
+
+.header .logo {
+display: block;
+float: left;
+font-size: 2em;
+padding: 10px 20px;
+text-decoration: none;
+font-family: cursive;
+}
+
+/* menu */
+
+.header .menu {
+clear: both;
+max-height: 0;
+transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+cursor: pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+}
+    </style>
+  </header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" >
+
+    <!-- Left Column -->
+    <div class="w3-third" style="margin-top:50px">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/robin.png" style="width:100%" alt="monkey d luffy">
+
+        </div>
+
+
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird" style="margin-top:25px;">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center; ">Nico Robin</h2>
+        <div class="w3-container">
+          <p>Nico Robin, also known by her epithet "Devil Child"[7] and the "Light of the Revolution",[8] is the archaeologist of the Straw Hat Pirates. She is the seventh member of the crew and the sixth to join, doing so at the end of the Arabasta Arc. She temporarily left the crew during the Water 7 Arc, but rejoined during the Enies Lobby Arc.
+
+Robin ate the Hana Hana no Mi at a young age, giving her the power to reproduce her body parts (or her entire body) on any surface at will. As the sole survivor of the destroyed West Blue island Ohara, she is currently the only person in the world known to have the ability to read and decipher Poneglyphs, a skill which is considered forbidden and threatening to the World Government.
+
+She acted as the vice president of Baroque Works as "Miss All Sunday", serving and partnering herself directly with the organization's president; the ex-Warlord: Crocodile, who operated under the codename "Mr. 0". She was a secondary antagonist of the Arabasta Saga, before joining the Straw Hats. Her dream is to find the Rio Poneglyph which tells the true history of the world, specifically the Void Century.
+
+She currently has a bounty of Beli.png130,000,000.</p>
+
+        </div>
+
+
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center">Personality</h2>
+        <div class="w3-container">
+          <p>
+            Nico Robin is a tall and slender young woman with shoulder-length black hair, and eyes that have dark, wide pupils (her eyes are depicted to be brown in manga as well as the tenth and twelfth movies; while in the anime, her eyes are depicted to be blue). She also has a long, thin and defined nose. In the anime, Robin's skin tone is slightly darker tan unlike in manga colored artworks where it is lighter. Robin also resembles her mother greatly, with the exception of her hair color and style as well as having slightly darker skin tone than her. Robin's limbs are very long, especially her legs, contributing greatly to both her fighting capabilities (given the nature of her powers) and overall height.
+          </p>
+          <a href="https://onepiece.fandom.com/wiki/Nico_Robin">for more information go...</a>
+          <hr>
+        </div>
+
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<title>nami</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./header.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+
+  <header class="header">
+
+    <a href="../index.html" class="logo">OnePiece</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../character.html">Character</a></li>
+      <li><a href="../aboutme.html">About</a></li>
+
+    </ul>
+    <style media="screen">
+    body {
+
+
+
+font-family: Helvetica, sans-serif;
+background-color: #f4f4f4;
+}
+
+a {
+color: #3695ba;
+}
+
+/* header */
+
+.header {
+background-color: #fff;
+box-shadow: 1px 1px 4px 0 rgba(54, 149, 186);
+position: fixed;
+width: 100%;
+z-index: 3;
+margin-top: -20px
+
+
+}
+
+.header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: #fff;
+
+}
+
+.header li a {
+display: block;
+padding: 20px 20px;
+border-right: 1px solid #f4f4f4;
+text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+background-color: #f4f4f4;
+
+}
+
+.header .logo {
+display: block;
+float: left;
+font-size: 2em;
+padding: 10px 20px;
+text-decoration: none;
+font-family: cursive;
+}
+
+/* menu */
+
+.header .menu {
+clear: both;
+max-height: 0;
+transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+cursor: pointer;
+display: inline-block;
+float: right;
+padding: 28px 20px;
+position: relative;
+user-select: none;
+}
+
+.header .menu-icon .navicon {
+background: #333;
+display: block;
+height: 2px;
+position: relative;
+transition: background .2s ease-out;
+width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+background: #333;
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+transition: all .2s ease-out;
+width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+.header li {
+  float: left;
+}
+.header li a {
+  padding: 20px 30px;
+}
+.header .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+.header .menu-icon {
+  display: none;
+}
+}
+    </style>
+  </header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" >
+
+    <!-- Left Column -->
+    <div class="w3-third" style="margin-top:50px">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/nami.jpg" style="width:100%" alt="monkey d luffy">
+
+        </div>
+
+
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird" style="margin-top:25px;">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center; ">Nami</h2>
+        <div class="w3-container">
+          <p>mi (Japanese: ナミ, Japanese: [na̠mʲi]) is a fictional character in the One Piece franchise created by Eiichiro Oda. She is based on Ann and Silk, two characters from Oda's previous manga Romance Dawn. She is introduced as a thief and pickpocket who possesses cartographical, meteorological and navigational skills. At first, she is a subordinate of the fishman Arlong, but she is eventually freed of this service and permanently joins Monkey D. Luffy for her dream to write the complete map of the Grand Line.<br>
+
+In the series, Nami is the Straw Hat Pirates' navigator, who dreams of drawing a map of the entire world. Despite her initial distrust of pirates, Nami eventually changes her mind after being around Luffy and the rest of the crew. Nami is depicted as an intelligent girl, who has an obsession of obtaining money. She is able to use her three-sectioned staff and use her climate skills to create powerful attacks; the most prominent of these staff weapons is the Clima-Tact, in which she manipulates the climate to create weather-based attacks.</p>
+          <br>
+          <p>Nami was based on two of Eiichiro Oda's earlier characters named Silk and Ann, two characters from Oda's one-shot manga Romance Dawn. In these stories, Silk and Ann were parentless and had tragic pasts. Oda designed Nami as a human girl. At first, Oda wanted Nami to use a large axe, but the author replaced it with a pole-based weapon.</p>
+        </div>
+
+
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16" style="text-align:center">Personality</h2>
+        <div class="w3-container">
+          <p>
+            Nami possesses several abilities. She can tell climate changes and draw sea charts.[10] She is also a pickpocket.[3] During the early part of the series, Nami possesses a three-sectioned bo staff until Usopp creates a variation of her staff known as the Clima-Tact (天候棒クリマ・タクト, Kuraima Takuto, renamed "Climate Baton" in Viz Media's manga translation and "Weather Forcer" in 4Kids' anime dub), which can control the weather at will.[11] Later, Usopp upgrades her weapon to the Perfect Clima-Tact (完全版 "天候棒"パーフェクト･クリマ･タクト, Pāfekuto Kurima Takuto, renamed "Perfected Climate Baton" in the Viz Media manga translation and "Complete Clima-Tact" in Funimation's anime dub), using Dials to increase her attacks.[12]
+
+Eventually, Nami adds the Sorcery Clima-Tact (Sorcery Climate Baton in the Viz manga and Funimation subs) with Weatheria's technology,[13] which not only has improved abilities, but can also be used for other uses such as producing Milky Clouds for riding across.[14] As with her original staff, these three weapons are also tri-sectional. Later, Usopp gives Nami an improved Sorcery Clima-Tact model she wanted him to make (which he had Franky help him a little bit). Using the knowledge he acquired over the timeskip with the plant-based Pop Greens, Usopp combined this with the Weatheria technology Nami provided him with and designed the new Sorcery Clima-Tact to be smaller and more compact than the previous models. Instead, it uses the Pop Green's growth abilities for the staff to extend and contract, through the use of squeezing or releasing the handle.[15] This improvement also allows Nami to now be able to directly attack with her staff from a distance.[16] Nami later teamed up with Big Mom's thundercloud-based homie Zeus,[17] eventually forcing him to become her servant,[18] and is currently part of her arsenal, now living inside her Clima-Tact.[19]
+
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Nami_(One_Piece)">for more information go...</a>
+          <hr>
+        </div>
+
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+</body>
+</html>
